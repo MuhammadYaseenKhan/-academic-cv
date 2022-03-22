@@ -1,10 +1,21 @@
 \documentclass[10pt]{article}
-\usepackage[legal, 
+\usepackage[a4paper, 
   top=.75in,
   bottom=.75in,
   right=.5in,
   left=.5in]{geometry}
-%\usepackage[utf8]{inputenc}
+  
+\usepackage{mathspec}
+\usepackage[no-math]{fontspec}
+\setmainfont[
+  Ligatures=TeX,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Medium,
+  ItalicFont=*-Regular,
+  BoldItalicFont=*-Medium,
+]{VesperLibre}
+
 \usepackage{tabularx}
 \usepackage{hyperref}
 \hypersetup{
@@ -14,6 +25,9 @@
     pdftitle={MY Khan},
     pdfpagemode=FullScreen,
 }
+
+
+
 
 \title{\bfseries\huge Muhammad Yaseen Khan}
 \author{}
@@ -25,7 +39,7 @@
 \vspace{-3em}
 
 \begin{tabularx}{\textwidth}{XcX}
-\begin{tabular}[c]{@{}l@{}}Center for Language Computing,\\ Mohammad Ali Jinnah University,\\ Karachi, Pakistan.\end{tabular} & 
+\begin{tabular}[c]{@{}l@{}}Data Science (Search Experience and Recommendation),\\ Daraz\textendash Alibaba Group Inc.,\\ Karachi, Pakistan.\end{tabular} & 
 \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ & 
 \begin{tabular}[c]{@{}l@{}}
 Email: {\tt yaseenkhan.yzai@gmail.com}\\ 
@@ -39,11 +53,11 @@ Phone:{\tt +92$\cdot$332$\cdot$3240104}\\
 \section*{Education}
 
 \begin{tabularx}{\textwidth}{cX}
-\begin{tabular}[l]{@{}l@{}}2018 -- 2022\\\\\\\end{tabular} & 
+\begin{tabular}[l]{@{}l@{}}2018 -- cont.\\\end{tabular} & 
 \begin{tabular}[l]{@{}l@{}}
-Ph.D. (Computer Science), Mohammad Ali Jinnah University, DCS, awarded January 2023.\\
-Dissertation: Emotion Detection in Urdu Text.\\
-Committee: TBA.
+Ph.D. (Computer Science), Mohammad Ali Jinnah University, DCS.\\%, awarded January 2023.\\
+%Dissertation: Emotion Detection in Urdu Text.\\
+%Committee: TBA.
 \end{tabular}\\\\
 
 2014 – 2015 & 
@@ -62,19 +76,22 @@ BS (Software Engineering), University of Karachi, DCS (UBIT).
 \section*{Employment}
 
 \begin{tabularx}{\textwidth}{cX}
+01/22 – to date & 
+Senior Data Scientist (for Search Experience and Recommendation) at Daraz--Alibaba Group, Karachi
+\\\\
 02/21 – 01/22 & 
-Principal R\emph{\&}D Engineer (for NLP) @ Love For Data, Karachi
+Principal R\emph{\&}D Engineer (for NLP) at Love For Data, Karachi
 \\\\
 01/17 – 12/21 & 
-Senior Lecturer @ Dept. of Computer Science, Mohammad Ali Jinnah University, Karachi
+Senior Lecturer at Dept. of Computer Science, Mohammad Ali Jinnah University, Karachi
 \\\\
 01/19 – 12/19 & 
-AI/Software Developer @ AskIQ, Karachi, Pakistan
+AI/Software Developer at AskIQ, Karachi, Pakistan
 \\\\
-01/16 – 03/17 & Data Scientist @ Cubix Co., Karachi, Pakistan\\\\
-06/13 – 12/16 & Lecturer @ CoC\&IS, Karachi Institute of Economics \& Technology, Karachi, Pakistan\\\\
-02/12 – 06/13 & Software Engineer II @ Mazik Global Technologies, Karachi, Pakistan -cum- Microsoft Inc., Renton, USA\\\\
-01/11 – 02/12 & Web+iOS App. Developer  @ Counterpoint, Karachi, Pakistan -cum- Qurtaba LLC., Fremont, USA
+01/16 – 03/17 & Data Scientist at Cubix Co., Karachi, Pakistan\\\\
+06/13 – 12/16 & Lecturer at CoC\&IS, Karachi Institute of Economics \& Technology, Karachi, Pakistan\\\\
+02/12 – 06/13 & Software Engineer II at Mazik Global, Karachi, Pakistan -cum- Microsoft Inc., Renton, USA\\\\
+01/11 – 02/12 & Web+iOS App. Developer  at Counterpoint, Karachi, Pakistan -cum- Qurtaba LLC., Fremont, USA
 \end{tabularx}
 
 \section*{Professional Services}
@@ -119,7 +136,7 @@ and {English} data; the main features are itemized below:
 
 \subsection*{Teaching}
 \begin{tabularx}{\textwidth}{cX}
-2017 – present & Courses taught to \emph{grad students} at MAJU: CS6420 Applied Programming; CS5510 Advanced Research Method, CS6610 Information Retrieval Techniques.
+2017 – 2021 & Courses taught to \emph{grad students} at MAJU: CS6420 Applied Programming; CS5510 Advanced Research Method, CS6610 Information Retrieval Techniques.
 \newline Courses taught to \emph{undergrad students} at MAJU: CS1210 Introduction to Computing; CS1410 Computer Programming; CS1420 Object-Oriented Programming; CS2510 Data Structures and Algorithms; CS3110 Software Engineering; CS3310 Artificial Intelligence; CS5339 Introduction to Data Science.\\\\
 2013 – 2016 & Courses taught to undergrad students at KIET: Programming Fundamentals; Object-Oriented Programming; Data Structures and Algorithms; Data Mining; Software Engineering.
 \end{tabularx}
@@ -127,7 +144,7 @@ and {English} data; the main features are itemized below:
 \subsection*{Boards}
 \begin{enumerate}
 \itemsep = 0.1em
-\item \emph{ Member}, Board of Studies, MAJU, Karachi (2017--2019)
+\item \emph{ Member}, Board of Studies, MAJU, Karachi (2017--2019; 2022)
 \end{enumerate}
 
 \subsection*{Conference and Workshop Committees}
@@ -137,73 +154,73 @@ and {English} data; the main features are itemized below:
     
     \item \emph{Member}, Organising committee, 1st International Conference on Data Sciences (2019)
     
-    \item \emph{Trainer}, 1-Day Workshop on Data Science with Python @ UBIT, Karachi University (2018)
+    \item \emph{Trainer}, 1-Day Workshop on Data Science with Python at UBIT, Karachi University (2018)
     
-    \item \emph{Trainer}, Hands-on Programming with Python @ MAJU, Karachi (2018)
+    \item \emph{Trainer}, Hands-on Programming with Python at MAJU, Karachi (2018)
     
-    \item \emph{Trainer}, Programming with Python, Combat:18 @ KIET, Karachi (2018)
+    \item \emph{Trainer}, Programming with Python, Combat:18 at KIET, Karachi (2018)
     
-    \item \emph{Coach}, ICPC 2015 @ NUCES-FAST, Lahore (2015)
+    \item \emph{Coach}, ICPC 2015 at NUCES-FAST, Lahore (2015)
     
-    \item \emph{Faculty Head}, CodeJam @ KIET, Karachi (2015)
-    \item \emph{Faculty Head}, Combat: The Computing Battle 2017 @ KIET, Karachi (2014)
+    \item \emph{Faculty Head}, CodeJam at KIET, Karachi (2015)
+    \item \emph{Faculty Head}, Combat: The Computing Battle 2017 at KIET, Karachi (2014)
     
-    \item \emph{Coach}, Startup-Weekend @ IBA, Karachi (2012)
+    \item \emph{Coach}, Startup-Weekend at IBA, Karachi (2012)
 \end{enumerate}
 
 \subsection*{University Committees}
 \begin{enumerate}
 \itemsep=.1em
-    \item \emph{Member \& Chair}, Examination Paper Moderation Committee @ MAJU, Karachi (2018–present; chair, Spring 2020)
+    \item \emph{Member \& Chair}, Examination Paper Moderation Committee at MAJU, Karachi (2018–present; chair, Spring 2020)
     
-    \item \emph{Chair}, Committee on Examination Policy for COVID-19 Pandemic @ MAJU, Karachi
+    \item \emph{Chair}, Committee on Examination Policy for COVID-19 Pandemic at MAJU, Karachi
     
-    \item \emph{Member}, QEC Self-Assessment Report for undergrad and grad CS and SE programmes @ MAJU, Karachi
+    \item \emph{Member}, QEC Self-Assessment Report for undergrad and grad CS and SE programmes at MAJU, Karachi
     
-    \item \emph{Member}, External Course Review Committee @ KIET, Karachi (2019)
+    \item \emph{Member}, External Course Review Committee at KIET, Karachi (2019)
     
     \item \emph{Member}, Graduate Thesis Evaluation Committee, MAJU, Karachi (2018–present)
     
-    \item \emph{Member}, Student Academic Advisor/Counselor @ MAJU, Karachi (2017–present)
+    \item \emph{Member}, Student Academic Advisor/Counselor at MAJU, Karachi (2017–present)
     
     \item \emph{Member}, Final Year Project Evaluation/Exhibition Committee, MAJU, Karachi (2017–present)
     
-    \item \emph{Member}, Founding Faculty Sponsor of ACM-MAJU student chapter @ MAJU, Karachi (2017–present)
+    \item \emph{Member}, Founding Faculty Sponsor of ACM-MAJU student chapter at MAJU, Karachi (2017–present)
     
-    \item \emph{Member}, Admission interviews committee @ MAJU, Karachi (2017–present)
+    \item \emph{Member}, Admission interviews committee at MAJU, Karachi (2017–present)
     
-    \item \emph{Member}, Credit transfer committee @ MAJU, Karachi (2018–present)
+    \item \emph{Member}, Credit transfer committee at MAJU, Karachi (2018–present)
     
-    \item \emph{Member}, Founding Faculty Sponsor of ACM-KIET student chapter @ KIET, Karachi (2013–15)
+    \item \emph{Member}, Founding Faculty Sponsor of ACM-KIET student chapter at KIET, Karachi (2013–15)
     
-    \item \emph{Member}, Final year project committee @ KIET, (2013–16)
+    \item \emph{Member}, Final year project committee at KIET, (2013–16)
 \end{enumerate}
 
 \section*{Publications}
-Since $2018$ (and as of December '21), I have got $58$ citations with $h$-index = $5$. Published items are sorted chronologically in reverse order. Conference papers that later converted into book chapters or journal articles are counted once.
+Since $2018$ (and as of December '21), there are $66$ citations with $h$-index = $5$. The Q* statistic of journal articles is Q1=$2$, Q2=$1$, Q3=$4$ and Q4=$1$. Published items are sorted chronologically in reverse order. Conference papers that later converted into book chapters or journal articles are counted once.
 \subsection*{Refereed Journal Articles}
 \begin{enumerate}
 \itemsep=.1em
 
-\item Tafseer Ahemd, Muhammad Suffian, Muhammad Yaseen Khan, and Alessandro Bogliolo. ``Discovering Lexical Similarity Using Articulatory Feature-Based Phonetic Edit Distance.'' \emph{IEEE Access} (2021). {\scshape (q1; sci-if 3.36)} \href{https://doi.org/10.1109/ACCESS.2021.3137905}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Tafseer Ahemd, Muhammad Suffian, Muhammad Yaseen Khan, and Alessandro Bogliolo. ``Discovering Lexical Similarity Using Articulatory Feature-Based Phonetic Edit Distance.'' \emph{IEEE Access} (2021). {\scshape (Q1; \textsc{\bfseries \textsc{SCI-IF}} 3.36)} \href{https://doi.org/10.1109/ACCESS.2021.3137905}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Yaseen Khan, Abdul Qayoom, Muhammad Suffian Nizami, Muhammad Shoaib Siddiqui, Shaukat Wasi, and Syed Muhammad Khaliq-ur-Rahman Raazi. ``Automated Prediction of Good Dictionary EXamples (GDEX): A Comprehensive Experiment with Distant Supervision, Machine Learning, and Word Embedding-Based Deep Learning Techniques.'' \emph{Complexity} 2021 (2021). {\scshape (q1; scie-if 2.83)} \href{https://doi.org/10.1155/2021/2553199}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Yaseen Khan, Abdul Qayoom, Muhammad Suffian Nizami, Muhammad Shoaib Siddiqui, Shaukat Wasi, and Syed Muhammad Khaliq-ur-Rahman Raazi. ``Automated Prediction of Good Dictionary EXamples (GDEX): A Comprehensive Experiment with Distant Supervision, Machine Learning, and Word Embedding-Based Deep Learning Techniques.'' \emph{Complexity} 2021 (2021). {\scshape (Q1; \textsc{SCIE-IF} 2.83)} \href{https://doi.org/10.1155/2021/2553199}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Suﬀian Nizami, Tafseer Ahmed, and Muhammad Yaseen Khan. "Hindustani or Hindi vs. Urdu: A Computational Approach for the Exploration of Similarities Under Phonetic Aspects."  \emph{International Journal of Advanced Computer Science and Applications}, 11(11), 2020. {\scshape (q3; esci)} \href{https://dx.doi.org/10.14569/IJACSA.2020.0111191}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Suffian Nizami, Tafseer Ahmed, and Muhammad Yaseen Khan. "Hindustani or Hindi vs. Urdu: A Computational Approach for the Exploration of Similarities Under Phonetic Aspects."  \emph{International Journal of Advanced Computer Science and Applications}, 11(11), 2020. {\scshape (Q3; \textsc{ESCI})} \href{https://dx.doi.org/10.14569/IJACSA.2020.0111191}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Yaseen Khan, Muhammad Adil Rao, Shaukat Wasi, Twaha Ahmed Minai, and Syed Muhammad Khaliq-ur-Rahman Raazi. ``Edit distance-based search approach for retrieving elementwiseprosody/rhymes in Hindi-Urdu poetry." \emph{Indian Journal of Science and Technology} 13(39), 2020: pp. 4189--4201. {\scshape (mjl)} \href{https://doi.org/10.17485/IJST/v13i39.1489}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Yaseen Khan, Muhammad Adil Rao, Shaukat Wasi, Twaha Ahmed Minai, and Syed Muhammad Khaliq-ur-Rahman Raazi. ``Edit distance-based search approach for retrieving elementwiseprosody/rhymes in Hindi-Urdu poetry." \emph{Indian Journal of Science and Technology} 13(39), 2020: pp. 4189--4201. {\scshape (\textsc{MJL})} \href{https://doi.org/10.17485/IJST/v13i39.1489}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Yaseen Khan and Khurum Nazir Junejo. ``Exerting 2D-Space of Sentiment Lexicons with Machine Learning Techniques: A Hybrid Approach for Sentiment Analysis." \emph{International Journal of Advanced Computer Science and Applications} 11(6), 2020: pp. 599--608. {\scshape (q3; esci)} \href{https://doi.org/10.14569/IJACSA.2020.0110672}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Yaseen Khan and Khurum Nazir Junejo. ``Exerting 2D-Space of Sentiment Lexicons with Machine Learning Techniques: A Hybrid Approach for Sentiment Analysis." \emph{International Journal of Advanced Computer Science and Applications} 11(6), 2020: pp. 599--608. {\scshape (Q3; \textsc{ESCI})} \href{https://doi.org/10.14569/IJACSA.2020.0110672}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Waqar Muhmamd, Maria Mushtaq, Khurum Nazir Junejo, and Muhammad Yaseen Khan. ``Sentiment Analysis of Product Reviews in the Absence of Labelled Data using Supervised Learning Approaches." \emph{Malysian Journal of Computer Science} 32(2), 2020: pp. 118--132. {\scshape (q3; sci-if 0.7)} \href{https://ejournal.um.edu.my/index.php/MJCS/article/view/23528}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Waqar Muhmamd, Maria Mushtaq, Khurum Nazir Junejo, and Muhammad Yaseen Khan. ``Sentiment Analysis of Product Reviews in the Absence of Labelled Data using Supervised Learning Approaches." \emph{Malysian Journal of Computer Science} 32(2), 2020: pp. 118--132. {\scshape (Q3; \textsc{SCI-IF} 0.7)} \href{https://ejournal.um.edu.my/index.php/MJCS/article/view/23528}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Sham Muhammad Emad, Kamran Ahsan, Muhammad Yaseen Khan, Shoaib Ahmed, Rafiullah Khan, Kashif Rizwan, Farhan Shafiq. ``Depression Detection using Na\"{\i}ve Bayes: Text based approach." \emph{Interciencia} 44(11), 2020: pp. 174--182. {\scshape (q2; scie-if 0.26)}
+\item Sham Muhammad Emad, Kamran Ahsan, Muhammad Yaseen Khan, Shoaib Ahmed, Rafiullah Khan, Kashif Rizwan, Farhan Shafiq. ``Depression Detection using Na\"{\i}ve Bayes: Text based approach." \emph{Interciencia} 44(11), 2020: pp. 174--182. {\scshape (Q2; \textsc{SCIE-IF} 0.26)}
 
-\item Kanwal Iqbal, Muhammad Yaseen Khan, Shaukat Wasi, Shumaila Mahboob, and Tafseer Ahmed. ``On Extraction of Event Information from Social Text Stream: An Unpretentious NLP Solution." \emph{International Journal of Computer Science and Network Security} 19(9), 2019: pp. 121--131. {\scshape (esci)} \href{http://paper.ijcsns.org/07_book/201909/20190915.pdf}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Kanwal Iqbal, Muhammad Yaseen Khan, Shaukat Wasi, Shumaila Mahboob, and Tafseer Ahmed. ``On Extraction of Event Information from Social Text Stream: An Unpretentious NLP Solution." \emph{International Journal of Computer Science and Network Security} 19(9), 2019: pp. 121--131. {\scshape (\textsc{ESCI})} \href{http://paper.ijcsns.org/07_book/201909/20190915.pdf}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Aisha Nazir, Muhammad Yaseen Khan, Tafseer Ahmed, Syed Imran Jami, and Shaukat Wasi. ``A Novel Approach For Ontology-Driven Information Retrieving Chatbot For Fashion Brands." \emph{International Journal of Advanced Computer Science and Applications} 10(9), 2019: pp. 546--552. {\scshape (q3; esci)} \href{https://doi.org/10.14569/IJACSA.2019.0100972}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Aisha Nazir, Muhammad Yaseen Khan, Tafseer Ahmed, Syed Imran Jami, and Shaukat Wasi. ``A Novel Approach For Ontology-Driven Information Retrieving Chatbot For Fashion Brands." \emph{International Journal of Advanced Computer Science and Applications} 10(9), 2019: pp. 546--552. {\scshape (Q3; \textsc{ESCI})} \href{https://doi.org/10.14569/IJACSA.2019.0100972}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Suffian, Muhammad Yaseen Khan, and Shaukat Wasi. ``Developing Disease Classification System based on Keyword Extraction and Supervised Learning." \emph{International Journal of Advanced Computer Science and Applications} 9(9), 2018: pp. 599--605. {\scshape (q4; esci)} \href{https://doi.org/10.14569/IJACSA.2018.090976}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Suffian, Muhammad Yaseen Khan, and Shaukat Wasi. ``Developing Disease Classification System based on Keyword Extraction and Supervised Learning." \emph{International Journal of Advanced Computer Science and Applications} 9(9), 2018: pp. 599--605. {\scshape (q4; \textsc{ESCI})} \href{https://doi.org/10.14569/IJACSA.2018.090976}{\scshape\small [\textcolor{blue}{PDF}]}
 
 \end{enumerate}
 
@@ -212,9 +229,9 @@ Since $2018$ (and as of December '21), I have got $58$ citations with $h$-index 
 \begin{enumerate}
 \setcounter{enumi}{10}
 \itemsep-4pt
-\item Muhammad Yaseen Khan and Tafseer Ahmed. ``Pseudo transfer learning by exploiting monolingual corpus: An experiment on Roman Urdu transliteration.'' \emph{International Conference on Intelligent Technologies and Applications}. Springer, Singapore, 2019. \href{https://doi.org/10.1007/978-981-15-5232-8_36}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Yaseen Khan and Tafseer Ahmed. ``Pseudo transfer learning by exploiting monolingual corpus: An experiment on Roman Urdu transliteration.'' \emph{International Conference on Intelligent Technologies and Applications}. Springer, Singapore, 2019. \href{https://doi.org/10.1007/978-981-15-5232-8_36}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Suffian Nizami, Muhammad Yaseen Khan, and Tafseer Ahmed. ``Towards a generic approach for pos-tagwise lexical similarity of languages." \emph{International Conference on Intelligent Technologies and Applications}. Springer, Singapore, 2019. \href{https://doi.org/10.1007/978-981-15-5232-8_42}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Suffian Nizami, Muhammad Yaseen Khan, and Tafseer Ahmed. ``Towards a generic approach for pos-tagwise lexical similarity of languages." \emph{International Conference on Intelligent Technologies and Applications}. Springer, Singapore, 2019. \href{https://doi.org/10.1007/978-981-15-5232-8_42}{\scshape\small [\textcolor{blue}{PDF}]}
 
 \end{enumerate}
 
@@ -234,20 +251,20 @@ Since $2018$ (and as of December '21), I have got $58$ citations with $h$-index 
 
 \item Muahmmad Yaseen Khand and Muhammad Umer Tariq Butt. ``Classic Fairy Tales / Children Stories of the World: Corpus Organization and Text Analytics.'' In \emph{2021 7th International Conference of Linguistic Association of Pakistan (ICLAP)}, Sargodha, Pakistan. %DOI: \href{https://ieeexplore.ieee.org/document/9526252}{\textcolor{blue}{10.1109/MAJICC53071.2021.9526252}}.
 
-\item Samiullah Shaikh, Muhammad Yaseen Khan, and Muhammad Suffian Nizami. ``Using Patient Descriptions of Top-20 Diseases in Text Classification for Evidence-based Medicine." In \emph{2021 1st MAJU International Conference on Computing (MAJICC)}, pp. 1--8. IEEE, 2021. Karachi, Pakistan. \href{https://ieeexplore.ieee.org/document/9526252}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Samiullah Shaikh, Muhammad Yaseen Khan, and Muhammad Suffian Nizami. ``Using Patient Descriptions of Top-20 Diseases in Text Classification for Evidence-based Medicine." In \emph{2021 1st MAJU International Conference on Computing (MAJICC)}, pp. 1--8. IEEE, 2021. Karachi, Pakistan. \href{https://ieeexplore.ieee.org/document/9526252}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Kashif Badr, Kanwal Iqbal, Shumaila Mahboob, and Muhammad Yaseen Khan. ``Processing Fire Detection, Face Recognition, and Head Counting for an IoT-based Application in Emergency Exit." In \emph{2021 1st MAJU International Conference on Computing (MAJICC)}, pp. 1--6. IEEE, 2021. Karachi, Pakistan. \href{https://ieeexplore.ieee.org/document/9526261}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Kashif Badr, Kanwal Iqbal, Shumaila Mahboob, and Muhammad Yaseen Khan. ``Processing Fire Detection, Face Recognition, and Head Counting for an IoT-based Application in Emergency Exit." In \emph{2021 1st MAJU International Conference on Computing (MAJICC)}, pp. 1--6. IEEE, 2021. Karachi, Pakistan. \href{https://ieeexplore.ieee.org/document/9526261}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Sohail, Muhammad Yaseen Khan, Nisar Ahmed Siddiqui, and Kiran. ``Sign Language Translation in Urdu/Hindi Through Microsoft Kinect." In \emph{2020 3rd Pak-Turk International Conference on Emerging Technologies in the field of Sciences and Engineering (ETSE) (ETSE)}, pp. 1--7. IOP Conference Series: Material Sciences and Engineering, 2020. GIK Topi, Pakistan. \href{https://doi.org/10.1109/ICISCT49550.2020.9080043}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Sohail, Muhammad Yaseen Khan, Nisar Ahmed Siddiqui, and Kiran. ``Sign Language Translation in Urdu/Hindi Through Microsoft Kinect." In \emph{2020 3rd Pak-Turk International Conference on Emerging Technologies in the field of Sciences and Engineering (ETSE)}, pp. 1--7. IOP Conference Series: Material Sciences and Engineering, 2020. GIK Topi, Pakistan. \href{https://doi.org/10.1109/ICISCT49550.2020.9080043}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Yaseen Khan and Muhammad Suffian Nizami. ``Urdu~Sentiment~Corpus (v1.0): Linguistic Exploration and Visualization of Labeled Dataset for Urdu~Sentiment~Analysis." In \emph{2020 2nd International Conference on Information Science \& Communication Technology (ICISCT)}, pp. 1--15. IEEE, 2020. Karachi, Pakistan. \href{https://doi.org/10.1109/ICISCT49550.2020.9080043}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Yaseen Khan and Muhammad Suffian Nizami. ``Urdu~Sentiment~Corpus (v1.0): Linguistic Exploration and Visualization of Labeled Dataset for Urdu~Sentiment~Analysis." In \emph{2020 2nd International Conference on Information Science \& Communication Technology (ICISCT)}, pp. 1--15. IEEE, 2020. Karachi, Pakistan. \href{https://doi.org/10.1109/ICISCT49550.2020.9080043}{\scshape\small [\textcolor{blue}{PDF}]}
 
 
-\item Mohammad Ayub Latif, Muhmmad Yaseen Khan, and Kashif Bashir. ``Practices for Achieving Accuracy in Software Costing and Estimation." In \emph{2018 2nd International Conference on Computing \& Information Sciences (ICCIS)}, pp. 83--95. IEEE, 2018. Karachi, Pakistan. \href{http://kjcis.pafkiet.edu.pk/index.php/kjcis/article/view/13}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Mohammad Ayub Latif, Muhmmad Yaseen Khan, and Kashif Bashir. ``Practices for Achieving Accuracy in Software Costing and Estimation." In \emph{2018 2nd International Conference on Computing \& Information Sciences (ICCIS)}, pp. 83--95. IEEE, 2018. Karachi, Pakistan. \href{http://kjcis.pafkiet.edu.pk/index.php/kjcis/article/view/13}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Shumaila Mahboob, Kanwal Iqbal, Hira Farman, Muhammad Yaseen Khan, and Shaukat Wasi. ``Drive pattern analyzer using smartphones." In \emph{2017 13th International Conference on Emerging Technologies (ICET)}, pp. 1--5. IEEE, 2017. Islamabad, Pakistan. \href{https://doi.org/10.1109/ICET.2017.8281659}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Shumaila Mahboob, Kanwal Iqbal, Hira Farman, Muhammad Yaseen Khan, and Shaukat Wasi. ``Drive pattern analyzer using smartphones." In \emph{2017 13th International Conference on Emerging Technologies (ICET)}, pp. 1--5. IEEE, 2017. Islamabad, Pakistan. \href{https://doi.org/10.1109/ICET.2017.8281659}{\scshape\small [\textcolor{blue}{PDF}]}
 
-\item Muhammad Yaseen Khan, Shah Muhammad Emaduddin, and Khurum Nazir Junejo. ``Harnessing english sentiment lexicons for polarity detection in urdu tweets: A baseline approach." In \emph{2017 IEEE 11th International Conference on Semantic Computing (ICSC)}, pp. 242--249. IEEE, 2017. San Diago, USA. \href{https://doi.org/10.1109/ICSC.2017.68}{\scshape\small [\textcolor{blue}{pdf}]}
+\item Muhammad Yaseen Khan, Shah Muhammad Emaduddin, and Khurum Nazir Junejo. ``Harnessing english sentiment lexicons for polarity detection in urdu tweets: A baseline approach." In \emph{2017 IEEE 11th International Conference on Semantic Computing (ICSC)}, pp. 242--249. IEEE, 2017. San Diago, USA. \href{https://doi.org/10.1109/ICSC.2017.68}{\scshape\small [\textcolor{blue}{PDF}]}
 
 \end{enumerate}
 
@@ -276,7 +293,7 @@ Since $2018$ (and as of December '21), I have got $58$ citations with $h$-index 
 \end{enumerate}
 
 
-\subsubsection*{\textsc{Conference and Workshop Attendee}}
+\subsubsection*{{Conference and Workshop Attendee}}
 \begin{enumerate}
 \itemsep.1em
 \item 7th Intl. Conf. of Linguistics of Pakistan (ICLAP), Univesity of Sargodha, Pakistan (2021)
@@ -294,7 +311,7 @@ Since $2018$ (and as of December '21), I have got $58$ citations with $h$-index 
 %\itemsep-4pt
 %\end{enumerate}
 
-\subsection*{\textcolor{NavyBlue}{Graduated Students}}
+\section*{\textcolor{NavyBlue}{Graduated Students}}
 \begin{enumerate}
 \itemsep.1em
 \item \href{https://www.linkedin.com/in/msuffian/}{Muhammad Suffian Nizami} (MS Thesis - CS); ``\emph{ Formulating Patient Descriptions to Support Evidence Based Medicine}''. Spring 2018. Co-supervised with Dr S. Wasi.
@@ -309,21 +326,21 @@ Since $2018$ (and as of December '21), I have got $58$ citations with $h$-index 
 \end{enumerate}
 
 
-\subsection*{\textcolor{NavyBlue}{Awards and Honours}}
+\section*{\textcolor{NavyBlue}{Awards and Honours}}
 \begin{enumerate}
 \itemsep-4pt
 \item Awardee of Dean's List 2014 and 2015 during MS.SE, KIET
 \end{enumerate}
 
 
-\subsection*{\textcolor{NavyBlue}{Skills}}
+\section*{\textcolor{NavyBlue}{Skills}}
 
 \begin{tabularx}{\textwidth}{cX}
 Computing & Programming (Python, Java, JavaScript, C\#, MySQL) $\cdot$ Typesetting with \LaTeX\\[4pt]
 Languages & English $\cdot$ Urdu $\cdot$ Hindi $\cdot$ Persian/Farsi
 \end{tabularx}
 
-\subsection*{\textcolor{NavyBlue}{References}}
+\section*{\textcolor{NavyBlue}{References}}
 \begin{enumerate}
 \itemsep-4pt
 \item \href{https://www.linkedin.com/in/knjunejo/}{Dr. Khurum Nazir Junejo}, former Head of R\emph{\&}D at Love for Data.
